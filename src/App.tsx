@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import { AppIcon } from './components/AppIcon';
 
 function ContainerInsideExample() {
   return (
     <Navbar sticky="bottom" expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#">Navbar</Navbar.Brand>
+        <AppIcon></AppIcon>
       </Container>
     </Navbar>
   );
